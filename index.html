@@ -72,8 +72,8 @@
 		
 			}
 			onEachFeature: function(feature, layer){
-				layer.bindPopup(feature.Store_Name)
-				
+				layer.bindPopup(feature.properties.Store_Name)
+
 				}).addTo(map);
 			}
 	});

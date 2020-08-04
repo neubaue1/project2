@@ -70,13 +70,12 @@
 						weight: .5,
 					});
 		
-			}
-			onEachFeature: function(feature, layer){
+			}, onEachFeature: function(feature, layer){
 				layer.bindPopup(feature.properties.STORE_NAME)
+			}
 
 				}).addTo(map);
-		}
-	});
+		});
 
 
 	//add Hardship data
